@@ -79,7 +79,7 @@ function App() {
     <>
       <Navigation />
       <div className='md:container md:w-1/2 mx-auto my-5 rounded-xl p-5 bg-violet-100 min-h-[80vh] w-full'>
-        <h1 className='font-bold text-center text-2xl'>URTask - Manage your task at one place</h1>
+        <h1 className='font-bold text-center text-2xl'>URTask - Manage your task at your one place</h1>
         <div className="addTodo my-5 flex flex-col gap-2">
           <h2 className='text-lg font-bold'>Add a Todo</h2>
           <input type="text" value={todo} onChange={(e)=>{setTodo(e.target.value)}} name="todo" id="" className='px-3 py-2 rounded-lg border-3 border-violet-700 outline-2 outline-violet-800 w-full ' /><br />
